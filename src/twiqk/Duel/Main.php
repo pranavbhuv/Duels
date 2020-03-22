@@ -61,7 +61,7 @@ class Main extends PluginBase implements Listener
     {
         global $dn;
         $dn = $sender->getDisplayName();
-        $player->sendMessage(TextFormat::GREEN . $dn . TextFormat::GRAY . " has sent you a duel request! Type accept or decline in chat to duel!");
+        $player->sendMessage(TextFormat::GREEN . $dn . TextFormat::GRAY . " has sent you a duel request!");
         $api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
         $form = new ModalForm(function (Player $player, $data) use ($sender, $dn) {
             var_dump($data);
