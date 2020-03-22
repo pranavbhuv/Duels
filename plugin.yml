@@ -1,0 +1,12 @@
+---
+name: Duel
+version: 0.0.1
+main: twiqk\Duel\Main
+api: 3.11.6
+
+commands:
+
+  duel:
+    description: "Duel a player!"
+
+...
