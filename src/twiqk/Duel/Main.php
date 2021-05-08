@@ -21,7 +21,6 @@ class Main extends PluginBase implements Listener
     {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->getLogger()->notice("Enabled.");
-        $this->getLogger()->notice("For more plugins contact twiqk.");
         @mkdir($this->getDataFolder());
         $this->saveDefaultConfig();
     }
